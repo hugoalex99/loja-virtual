@@ -1,0 +1,33 @@
+/* Layout principal */
+.app-container {
+  @apply flex flex-col min-h-screen;
+}
+
+/* Navbar */
+.navbar {
+  @apply flex justify-between items-center p-4;
+}
+.navbar-title {
+  @apply text-2xl font-bold;
+}
+.navbar-links {
+  @apply flex gap-4;
+}
+
+/* Grid de produtos */
+.product-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6;
+}
+
+/* Página de produto */
+.product-page {
+  @apply max-w-md mx-auto p-6;
+}
+
+/* Carrinho */
+.cart-list {
+  @apply space-y-4 p-6;
+}
+.cart-item {
+  @apply flex justify-between items-center p-4 rounded-lg;
+}
